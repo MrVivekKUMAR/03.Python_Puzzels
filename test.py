@@ -20,7 +20,16 @@ def locate_card(cards, query):
 
 def test_result(dict):
     result = locate_card(dict['input']['cards'],dict['input']['query'])
+    print('_______________________________')
+    print('Input:')
+    print(dict['input'])
+    print('Expected Output:')
+    print(dict['output'])
+    print('Actual Output:')
+    print(result)
+
     if result==dict['output']:
+        print('Test Result : ')
         print ('Pass')
     else:
         print(f"FAILED FOR BELOW : result is {result} whereas expected {dict['output']}")
