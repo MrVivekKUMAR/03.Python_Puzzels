@@ -1,3 +1,4 @@
+######## Method 1
 def primenumber(number):
     prime_no=True
     div=number-1
@@ -12,3 +13,5 @@ def primenumber(number):
 
 print(primenumber(17))
 print(primenumber(18))
+
+
